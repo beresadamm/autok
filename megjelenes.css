@@ -37,8 +37,12 @@ nav>a{
     height: auto;
     width: auto;
     margin-left: 25px;   
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
 
+}
 #jobb{
     grid-area: jt;
     display: block;
@@ -53,6 +57,19 @@ footer{
     
 }
 
+section>h2{
+    color: rgb(10, 130, 95);
+}
+
+div{
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+}
+
 main{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -62,4 +79,6 @@ main{
     'bt jt'
     'f f'
     ;
+    
 }
+
